@@ -14,7 +14,7 @@ function Estudos() {
           <h2 className="bg-[#ebd07f]/20">background com 20% de opacidade</h2>
 
           <h2 className="border-2">Adiciona borda</h2>
-          <h2 className="border-2 border-amber-300 rounded-3xl">
+          <h2 className="border-2 border-amber-300 rounded-[10px]">
             Adiciona borda com cor e radius
           </h2>
           <h2 className="border-2 border-[#eb7f7f]">
@@ -34,9 +34,8 @@ function Estudos() {
         </section>
 
         <section id="ESPAÇAMENTO 2" className="bg-blue-700 h-36">
-          <h1 className="text-white">1</h1>
-          <h1 className="text-white">2</h1>
-          <h1 className=" bg-cyan-900">3</h1>
+         <h1 className="text-white w-36 bg-amber-900 truncate">texto qualquer que nao vai couber e vai quebrar</h1>
+         <h2 className="text-white w-46 bg-amber-400 line-clamp-3">texto qualquer que nao vai couber e vai quebrar na terceira linha porque é gigantesco.</h2>
         </section>
       </div>
     </>
